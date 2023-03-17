@@ -13,11 +13,13 @@
 <head>
     <title>Create</title>
     <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
 <body>
 
 <div class="container" >
-    <form action="/khach_hang/store" method="post">
+    <form action="/SP23B2_SOF3011_IT17321_war_exploded/khach_hang/store" method="post">
         <div class="row">
             <div class="col-md-6 col-12 mt-2">
                 <div class="mb-2">
