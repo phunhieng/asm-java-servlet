@@ -9,12 +9,12 @@
 <html>
 <head>
     <title>Title</title>
-    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/SP23B2_SOF3011_IT17321_war_exploded/css/bootstrap.min.css">
 
 </head>
 <body>
 <div class="container" >
-    <form action="/cua_hang/store" method="post">
+    <form action="/SP23B2_SOF3011_IT17321_war_exploded/cua_hang/store" method="post">
         <div class="mb-2">
             <label>Mã:</label>
             <input type="text" class="form-control" name="ma" value="ma1">
@@ -30,8 +30,8 @@
         <div class="mb-2">
             <label>Thành phố</label>
             <select name="thanhPho" class="form-select">
-                <option value="ha_noi">Hà Nội</option>
-                <option value="new_york">New York</option>
+                <option value="hn">Hà Nội</option>
+                <option value="ny">New York</option>
             </select>
         </div>
         <div class="mb-2">
@@ -45,7 +45,7 @@
         <button type="submit" class="btn btn-primary">Thêm</button>
     </form>
 </div>
-<script src="/js/bootstrap.min.js"></script>
-<script src="/js/jquery.min.js"></script>
+<script src="/SP23B2_SOF3011_IT17321_war_exploded/js/bootstrap.min.js"></script>
+<script src="/SP23B2_SOF3011_IT17321_war_exploded/js/jquery.min.js"></script>
 </body>
 </html>

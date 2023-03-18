@@ -11,7 +11,7 @@
 <html>
 <head>
     <title>Title</title>
-    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/SP23B2_SOF3011_IT17321_war_exploded/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
 <div class="container" >
@@ -75,7 +75,7 @@
         <button type="submit" class="btn btn-primary">Thêm</button>
     </form>
 </div>
-<script src="/js/bootstrap.min.js"></script>
-<script src="/js/jquery.min.js"></script>
+<script src="/SP23B2_SOF3011_IT17321_war_exploded/js/bootstrap.min.js"></script>
+<script src="/SP23B2_SOF3011_IT17321_war_exploded/js/jquery.min.js"></script>
 </body>
 </html>

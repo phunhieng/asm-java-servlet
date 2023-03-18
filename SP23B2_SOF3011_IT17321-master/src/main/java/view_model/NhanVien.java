@@ -52,13 +52,16 @@ public class NhanVien {
     @Column
     private String matKhau;
 
+    @Column
+    private UUID idCH;
 
+    @Column
+    private UUID idCV;
 
+    @Column
+    private UUID idGuiBaoCao;
 
-
-
-
-
-
+    @Column
+    private Integer trangThai;
 
 }

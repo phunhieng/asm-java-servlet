@@ -12,9 +12,9 @@
 <html>
 <head>
     <title>Create</title>
-    <link href="/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="/SP23B2_SOF3011_IT17321_war_exploded/css/bootstrap.min.css" rel="stylesheet">
+<%--    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"--%>
+<%--          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">--%>
 </head>
 <body>
 
@@ -79,8 +79,8 @@
         <button type="submit" class="btn btn-primary">Thêm</button>
     </form>
 </div>
-<script src="/js/bootstrap.min.js"></script>
-<script src="/js/jquery.min.js"></script>
+<script src="/SP23B2_SOF3011_IT17321_war_exploded/js/bootstrap.min.js"></script>
+<script src="/SP23B2_SOF3011_IT17321_war_exploded/js/jquery.min.js"></script>
 
 </body>
 </html>

@@ -52,16 +52,16 @@ public class KhachHangServlet extends HttpServlet {
 
     protected void delete(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         String ma = request.getParameter("ma");
-        System.out.println(ma);
+//        System.out.println(ma);
         KhachHang kh = this.khachHangRepo.findByMa(ma);
-        System.out.println(kh);
+//        System.out.println(kh);
         this.khachHangRepo.delete(kh);
         response.sendRedirect("/SP23B2_SOF3011_IT17321_war_exploded/khach_hang/index");
     }
 
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        response.getWriter().println("hello");
+//        response.getWriter().println("hello");
         this.store(request, response);
     }
 
@@ -74,7 +74,6 @@ public class KhachHangServlet extends HttpServlet {
     protected void index(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         request.setAttribute("danhSachKH", this.khachHangRepo.findAll());
-
         request.getRequestDispatcher("/views/khach_hang/index.jsp").forward(request, response);
 //        this.store(request,response);
     }
@@ -97,11 +96,10 @@ public class KhachHangServlet extends HttpServlet {
         KhachHang kh = new KhachHang(ma, ten, tenDem, ho, ngaySinh, sdt, diaChi, thanhPho, quocGia, matKhau);
         System.out.println("post oce");
 //        response.getWriter().println(kh.toString());
-//        response.sendRedirect();
 
         //tạo arraylist và thêm vào
         this.khachHangRepo.insert(kh);
-        System.out.println("k di chuyen");
+//        System.out.println("k di chuyen");
         response.sendRedirect("/SP23B2_SOF3011_IT17321_war_exploded/khach_hang/index");
 
     }
